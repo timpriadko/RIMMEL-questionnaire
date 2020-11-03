@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <main class="main-contact step-2 container">
+  <main class="main-contact step-3 container">
     <div class="top-block">
       <div class="logo">
         <img src="img/logo.png" alt="" />
@@ -20,18 +20,18 @@
         Please enter your details to get the sample set sent to you
       </div>
 
-      <form action="step_5.html" class="details-form">
+      <form action="step_5.html" class="details-form user-form">
         <div class="names-block form-row two-column">
-            <div class="input-wrap">
-              <input type="text" placeholder="First name" name="first_name">
-            </div>
-            <div class="input-wrap">
-              <input type="text" placeholder="Last name" name="last_name">
-            </div>
+          <div class="input-wrap">
+            <input type="text" placeholder="First name" name="first_name">
+          </div>
+          <div class="input-wrap">
+            <input type="text" placeholder="Last name" name="last_name">
+          </div>
         </div>
 
         <div class="input-wrap">
-          <input placeholder="Email" type="email" id="email">
+          <input placeholder="Email" type="email" name="email" id="email">
         </div>
 
         <div class="input-wrap">
@@ -50,26 +50,28 @@
         </div>
 
         <div class="checkbox-block">
-            <input type="checkbox" name="terms" id="terms">
+          <input type="checkbox" name="terms" id="terms">
           <div class="checkbox-text">Please confirm that you agree to our
             Terms of Use and Privacy Policy by ticking here</div>
         </div>
         <div class="checkbox-block">
           <input type="checkbox" name="" id="">
-          <div class="checkbox-text">Please confirm that you agree to receive marketing communications about Rimmel offers, news and events by emails </div>
+          <div class="checkbox-text">Please confirm that you agree to receive marketing communications about Rimmel
+            offers, news and events by emails </div>
         </div>
 
         <div class="btns full">
           <label class="btn middle disabled" id="customer_form_label">
-              <input type="submit" id="customer_form_submit" disabled />
-              Enter payment details
+            <input type="submit" id="customer_form_submit" disabled />
+            Enter payment details
           </label>
         </div>
       </form>
     </div>
   </main>
-  
+
   <script src="js/libs.min.js"></script>
   <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
