@@ -20,7 +20,7 @@
         Please enter your details to get the sample set sent to you
       </div>
 
-      <form action="step_5.html" class="details-form user-form">
+      <form action="last.html" class="details-form user-form">
         <div class="names-block form-row two-column">
           <div class="input-wrap">
             <input type="text" placeholder="First name" name="first_name">
@@ -52,7 +52,9 @@
         <div class="checkbox-block">
           <input type="checkbox" name="terms" id="terms">
           <div class="checkbox-text">Please confirm that you agree to our
-            Terms of Use and Privacy Policy by ticking here</div>
+            <span class="terms terms-btn">Terms of Use</span> and <span class="terms policy-btn">Privacy Policy</span>
+            by ticking here
+          </div>
         </div>
         <div class="checkbox-block">
           <input type="checkbox" name="" id="">
@@ -68,6 +70,448 @@
         </div>
       </form>
     </div>
+
+    <div class="modal-wrap" id="modal-terms">
+      <div class="modal">
+        <div class="modal__body">
+
+          <p class="modal__text">
+            Here at Odore Limited we take your privacy and the security of your information
+            very seriously. We will only use your personal information as set out in our Privacy
+            Policy and as necessary to enable us to provide you with the services and products
+            you
+            have requested from us, or to contact you with details of information which we think
+            may be relevant or of interest to you in respect of the services and products we
+            provide, or about new services or products which we think you might like to know
+            about.&#xA;&#xA;&#xA;&#xA;
+          </p>
+
+          <p class="modal__text">
+            The information you provide above is intended for the authorized personnel of
+            Rimmel, which is the processing controller. Your data is used to
+            manage your Rimmel &nbsp;experience, &nbsp;to send to you your results quiz and
+            with
+            your consent, to send you communications about Rimmel offers, news
+            and
+            events.For more information about your personal data and your rights, please consult
+            our Privacy policy.
+          </p>
+        </div>
+        <!-- end body -->
+
+        <div class="modal__footer">
+          <button type="button" class="modal_btn ui-close-modal">Ok</button>
+        </div>
+      </div>
+      <!-- end modal -->
+    </div>
+
+    <div class="modal-wrap" id="modal-policy">
+      <div class="modal">
+        <div class="modal__header">Privacy policy</div>
+
+        <div class="modal__body">
+          <p class="modal__text">
+            Rimmel pays attention to the processing, confidentiality and
+            safety of your personal data.
+          </p>
+
+          <p class="modal__text">
+            This aim of this privacy charter is to provide you with clear, simple and
+            complete information about how we process the personal data you give us or the data we
+            may collect while you are browsing our website, how it may be transferred to third
+            parties and your rights and options to control your personal information and protect
+            your privacy. 
+          </p>
+
+          <p class="modal__text">
+            Rimmel, a company with headquarters located at 190-192
+            Avenue Charles de Gaulle, registered in the Neuilly trade and companies register under
+            no. 55206518700130, is the data controller of personal data collected on the website
+            in the sense of regulations applying to personal data, in
+            particular Regulation (EU) 2016/679 on the protection of natural persons with regard
+            to the processing of personal data and the free movement of such data (hereinafter the
+            "GDPR").
+          </p>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">1.</span>
+              <p class="modal__text-col modal__text-col_header">
+                What is personal data?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Personal data is any information about an identified physical person or a
+                physical person that may be directly or indirectly identified via an
+                identification number or one or more elements particular to them, such as their
+                last name, first name, date of birth, customer number, order number, photo, etc.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">2.</span>
+              <p class="modal__text-col modal__text-col_header">
+                When can we collect your personal data?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">We can collect your personal data when you: </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                Experience the Sampling Machine in store and/or in corners;
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                Subscribe to our newsletter to receive information on our offers, news and
+                events by e-mail.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">3.</span>
+              <p class="modal__text-col modal__text-col_header">
+                What personal data might we collect?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">3.1</span>
+              <p class="modal__text-col">
+                As part of the services we provide, we may need to collect certain data
+                directly from you using electronic forms on our website, mobile apps or in
+                selected stores, or in paper form, for a range of purposes (see IV for a list of
+                processing purposes).
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">Information we might collect include your: </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">name;</p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">age;</p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                contact information such as email addresses and telephone numbers;
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                demographic information such as post code, preferences, and interests;
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">IP address.</p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Personal data essential to Rimmel is marked with an asterisk
+                on all personal data collection forms on our website, in electronic form at some
+                of our counters and stores, as well as off-line in paper form. If you do not fill
+                in these compulsory fields, Rimmel will probably be unable to
+                respond to your request and/or provide you with the requested services. Other
+                information is optional and enables us to get to know you better and improve our
+                communications and services with respect to you.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">3.2</span>
+              <p class="modal__text-col">
+                We may also collect certain data generated by your purchases of products or
+                services, online or in stores, particularly information regarding the amount and
+                type of your purchases.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">4.</span>
+              <p class="modal__text-col modal__text-col_header">
+                For what purpose is your personal data collected and used?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Rimmel processes your data to:
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                Supplying our services to you (please note that we require your personal
+                data in order to enter into a contract with you);
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                Personalising and tailoring our services for you; and
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                Subject to your consent, send you information on our offers, news and events
+                on your chosen communication media.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">5.</span>
+              <p class="modal__text-col modal__text-col_header">
+                What legal grounds legitimise the processing of your data?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Rimmel processes your personal information:
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                supplying our services to you (please note that we require your personal
+                data in order to enter into a contract with you);
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                when you have given your consent for the processing of your data, especially
+                for the purposes of managing our sales prospection, and of your browsing data via
+                cookies, etc.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">6.</span>
+              <p class="modal__text-col modal__text-col_header">
+                Who are the recipients of your personal data?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Your personal data is processed by the personnel of Rimmel.
+                We ensure that only authorised persons within Rimmel have access
+                to your personal data when this is necessary for the purpose of managing our
+                commercial relations or meeting our legal obligations.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">We may also share your personal data with; </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                other entities of the Group, with some of these entities acting as data
+                processors;
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                our marketing solution service provider: ODORE.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Lastly, Rimmel may need to share your personal data with
+                third parties to meet its legal, regulatory or treaty obligations, or to respond
+                to requests from authorised legal authorities.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">Specific to Rimmel: </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Rimmel and Rimmel Couture may share some of your
+                personal data, including data collected via cookies, for the shared management of
+                the website, particularly to allow you to have a single customer
+                account on this website, update the information on your customer account and
+                customise communication about Rimmel products that we may send you.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">7.</span>
+              <p class="modal__text-col modal__text-col_header">
+                Transferring data abroad
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Some recipients of your personal data may be located abroad, including
+                outside of the European Economic Area.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                All data transfers outside of the European Economic Area are subject to
+                appropriate guarantees, especially contractual, technical and organisational
+                guarantees, that comply with applicable regulations relating to the protection of
+                personal data.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">8.</span>
+              <p class="modal__text-col modal__text-col_header">
+                How long do we keep your data?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Legal periods of retention defined by Rimmel comply with the
+                recommendations of CNIL and/or the legal obligations covering Rimmel.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                As a general principle, your personal data will be retained in our client
+                database:
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                If you are a “client” (i.e. you have already purchased a Rimmel product): for no more
+                than 10 years after your first purchase for customer
+                relationship management, but no more than 5 years for business development; this
+                period will be renewed each time you interact with Rimmel (e.g. a
+                purchase)
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number">-</span>
+              <p class="modal__text-col">
+                If you are a “prospect” (i.e. you have never purchased a Rimmel product, but you are
+                interested in Rimmel brand): for no more
+                than 3 years; this period will be renewed each time you interact with Parfums
+                Rimmel (e.g. when participating in an event)
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                When we no longer need to use your personal data, it is removed from our
+                systems and records or anonymized so that you can no longer be identified from
+                it.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">9.</span>
+              <p class="modal__text-col modal__text-col_header">
+                What are your rights and how can you exercise them?
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                Under current regulations, particularly the GDPR, you have the right to
+                access and correct your personal data, request erasure, object to processing on
+                legitimate grounds and obtain limitation or portability, insofar as this is
+                applicable.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                You can exercise these rights directly with Rimmel by
+                sending an email to or a non-registered letter by post to
+                190-192 Avenue Charles de Gaulle, 92200 Neuilly-sur-Seine including a document
+                proving your identity.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                If, at any time, you no longer wish to receive details of our offers, news
+                and events, you can unsubscribe using the hypertext link provided for this purpose
+                in each mail we send you. You can also or send a non-registered letter to 190-192
+                Avenue Charles de Gaulle, 92200 Neuilly-sur-Seine.
+              </p>
+            </div>
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                You may also lodge a complaint with the CNIL at 3 Place de Fontenoy - TSA
+                80715 - 75334 PARIS CEDEX 07. Tel: 01 53 73 22 22.
+              </p>
+            </div>
+          </div>
+
+          <div class="modal__text">
+            <div class="modal__row">
+              <span class="modal__number modal__number_header">10.</span>
+              <p class="modal__text-col modal__text-col_header">
+                Contact details of the Data Protection Officer (DPO) and your right to lodge
+                a complaint
+              </p>
+            </div>
+
+            <div class="modal__row">
+              <span class="modal__number"></span>
+              <p class="modal__text-col">
+                For all questions relating to the collection and processing of your data by
+                Rimmel, you can contact the Rimmel Data Protection
+                Officer at .
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end body -->
+
+        <div class="modal__footer">
+          <button type="button" class="modal_btn ui-close-modal">Ok </button>
+        </div>
+      </div>
+      <!-- end modal -->
+    </div>
+
   </main>
 
   <script src="js/libs.min.js"></script>

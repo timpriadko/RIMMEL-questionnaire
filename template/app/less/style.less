@@ -393,6 +393,7 @@ h5 {
   display: flex;
   margin-bottom: 27px;
   margin-top: 30px;
+  align-items: center;
 
   .checkbox-text {
     font-family: Abel;
@@ -858,7 +859,6 @@ input {
   position: relative;
   &::after {
       content: 'Invalid email address';
-      font-family: @base_font;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -872,7 +872,6 @@ input {
   position: relative;
   &::after {
       content: 'Email does not match';
-      font-family: @base_font;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -883,6 +882,9 @@ input {
 
 .terms {
   text-decoration: underline;
+  font-size: 13px;
+  font-family: Abel;
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -1386,4 +1388,5 @@ input {
   }
 }
 
+@import url(./modal.less);
 @import url(./form-input.less);
